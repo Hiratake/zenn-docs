@@ -1,0 +1,12 @@
+{
+  "name": "zenn-docs",
+  "version": "1.0.0",
+  "description": "Zenn Documents",
+  "main": "index.js",
+  "repository": "https://github.com/Hiratake/zenn-docs.git",
+  "author": "Hiratake <hiratake@hiratake.xyz>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "zenn-cli": "^0.1.79"
+  }
+}
