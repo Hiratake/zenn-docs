@@ -1139,10 +1139,10 @@ ws@^7.4.6:
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.0.tgz#0033bafea031fb9df041b2026fc72a571ca44691"
   integrity sha512-6ezXvzOZupqKj4jUqbQ9tXuJNo+BR2gU8fFRk3XCP3e0G6WT414u5ELe6Y0vtp7kmSJ3F7YWObSNr1ESsgi4vw==
 
-zenn-cli@^0.1.88:
-  version "0.1.88"
-  resolved "https://registry.yarnpkg.com/zenn-cli/-/zenn-cli-0.1.88.tgz#e5f2a9e187459078e1de597ba18eae1da5a05810"
-  integrity sha512-wSYBH7s1DA361yYJNfYve63mUO2naefHsMvtkYf6p23ZVqJa8MiRAi8S8U9ENsXsg8PiVdZVc2gRlH+3nn6uEA==
+zenn-cli@^0.1.89:
+  version "0.1.89"
+  resolved "https://registry.yarnpkg.com/zenn-cli/-/zenn-cli-0.1.89.tgz#a568d44069eec563646a879f4d8d0f953c569796"
+  integrity sha512-A3PQ02cxXX/JAsdFd0HPUfXGTZPGex40hTc6+WE9fOGi4YjMgCqMMBnwwfE+f0nU+SYilKpziO3EKAblCdv0zw==
   dependencies:
     "@types/ws" "^7.4.4"
     arg "^5.0.0"
@@ -1164,24 +1164,24 @@ zenn-cli@^0.1.88:
     styled-components "^5.3.0"
     swr "^0.5.6"
     ws "^7.4.6"
-    zenn-content-css "^0.1.88"
-    zenn-embed-elements "^0.1.88"
-    zenn-markdown-html "^0.1.88"
+    zenn-content-css "^0.1.89"
+    zenn-embed-elements "^0.1.89"
+    zenn-markdown-html "^0.1.89"
 
-zenn-content-css@^0.1.88:
-  version "0.1.88"
-  resolved "https://registry.yarnpkg.com/zenn-content-css/-/zenn-content-css-0.1.88.tgz#4ed72042162a8b4db8929ae472f5fb59a355ec7e"
-  integrity sha512-63bld0ORSSJ5kD9+qbJUNZM4lbu0Grcl2TntkPy6yt0Sg6UxTC57bvlxPp792u0MT3IXCCD8yNw/Gn9UxO3kug==
+zenn-content-css@^0.1.89:
+  version "0.1.89"
+  resolved "https://registry.yarnpkg.com/zenn-content-css/-/zenn-content-css-0.1.89.tgz#5cde729c3f0bbc248805c9623799c0a207e9ab05"
+  integrity sha512-2JbvPN9ybkAYWihpfSroyMniCnT4mH9fxPpN6hKCXFuVwAdj1QlcvZaUU5DAQG6SL1VPg+LsoyXGBg51V6QFuw==
 
-zenn-embed-elements@^0.1.88:
-  version "0.1.88"
-  resolved "https://registry.yarnpkg.com/zenn-embed-elements/-/zenn-embed-elements-0.1.88.tgz#7b9c13f3c03898e986e1ed8ab26f414c2d4956ab"
-  integrity sha512-AFmz23TYaaCWAnsxlKi6LCa2HHwzNVhLcAkF4vpbS2+lnFXQdQ10003otl6jZTJ5fvAaxcIeZzEYJkLfoRjFbw==
+zenn-embed-elements@^0.1.89:
+  version "0.1.89"
+  resolved "https://registry.yarnpkg.com/zenn-embed-elements/-/zenn-embed-elements-0.1.89.tgz#c934e292225fa59571c4ccb6f0c6bb9efb2ebeef"
+  integrity sha512-emMbZhP2/urvAE23yoDcLUkaORJEE0RvNMm9E2q3A2j+jfwm2wlT+wMioSb43R0jH/DPKbxxFS9ldkPIXaxMKA==
 
-zenn-markdown-html@^0.1.88:
-  version "0.1.88"
-  resolved "https://registry.yarnpkg.com/zenn-markdown-html/-/zenn-markdown-html-0.1.88.tgz#b3b106db66e2aa9305b7246bb4700c0a586e28cc"
-  integrity sha512-Y6q6N8+TSY5FieWNMPa3IaZsngfsLCm8wfOtbJQFxrOwG6GYU3j+O86HoQxguxVdblt96ptuDBlgFHA1J5x3Hw==
+zenn-markdown-html@^0.1.89:
+  version "0.1.89"
+  resolved "https://registry.yarnpkg.com/zenn-markdown-html/-/zenn-markdown-html-0.1.89.tgz#d949508dbb9c9a2099b9fa7178a367fcbd4ef11a"
+  integrity sha512-Dg7rFVmguJX1HOiOXH45frZfZsh9JYrzCmOVKlvX0AEYapraLe76xQoTZqOjGGjQTTJHCCgj12M6zjsyGJvr7g==
   dependencies:
     "@steelydylan/markdown-it-imsize" "^1.0.2"
     "@steelydylan/prism-diff-highlight" "1.0.4"
