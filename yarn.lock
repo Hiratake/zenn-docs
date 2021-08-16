@@ -528,10 +528,10 @@ linkify-it@^3.0.1:
   dependencies:
     uc.micro "^1.0.1"
 
-markdown-it-anchor@^5.3.0:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/markdown-it-anchor/-/markdown-it-anchor-5.3.0.tgz#d549acd64856a8ecd1bea58365ef385effbac744"
-  integrity sha512-/V1MnLL/rgJ3jkMWo84UR+K+jF1cxNG1a+KwqeXqTIJ+jtA8aWSHuigx8lTzauiIjBDbwF3NcWQMotd0Dm39jA==
+markdown-it-anchor@^8.1.2:
+  version "8.1.2"
+  resolved "https://registry.yarnpkg.com/markdown-it-anchor/-/markdown-it-anchor-8.1.2.tgz#1f26b102005cb7750d5159d06ba3cfa9400ebc3d"
+  integrity sha512-9D58TKK4dakqmjcmVuqHoB3ntKBpQJ0Ld38B83aiHJcBD72IZIyPjNtihPA6ayRI5WD33e1W68mArliNLHCprg==
 
 markdown-it-container@^2.0.0:
   version "2.0.0"
@@ -855,10 +855,10 @@ ws@^7.4.6:
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.0.tgz#0033bafea031fb9df041b2026fc72a571ca44691"
   integrity sha512-6ezXvzOZupqKj4jUqbQ9tXuJNo+BR2gU8fFRk3XCP3e0G6WT414u5ELe6Y0vtp7kmSJ3F7YWObSNr1ESsgi4vw==
 
-zenn-cli@^0.1.93:
-  version "0.1.93"
-  resolved "https://registry.yarnpkg.com/zenn-cli/-/zenn-cli-0.1.93.tgz#e6358c30fcefd8242f4ffe888ad3e4afcd7d95e6"
-  integrity sha512-CkBd5MdmAe4yYrHQVlQKRig/cCD4k12OZ2oVaBKiE+CSmHZo4FTGcW+q1DZ+GD+iLVsLCvOCBCFdO8C4LLk2pw==
+zenn-cli@^0.1.94:
+  version "0.1.94"
+  resolved "https://registry.yarnpkg.com/zenn-cli/-/zenn-cli-0.1.94.tgz#272aff56b85a18262fee07827cdb1ad2b652f535"
+  integrity sha512-OjHU0Sy+codM9A7FkF7KcssHY3tn7Ue3w+BxPu1MaSNwtiNiHOkJtRHWkiN+LAtKz/SA6RBX/p+VzM5O8a6+ig==
   dependencies:
     arg "^5.0.0"
     cheerio "^1.0.0-rc.10"
@@ -874,18 +874,18 @@ zenn-cli@^0.1.93:
     node-fetch "^2.6.1"
     open "^8.2.0"
     ws "^7.4.6"
-    zenn-markdown-html "^0.1.93"
+    zenn-markdown-html "^0.1.94"
 
-zenn-markdown-html@^0.1.93:
-  version "0.1.93"
-  resolved "https://registry.yarnpkg.com/zenn-markdown-html/-/zenn-markdown-html-0.1.93.tgz#ce50da94e4a60c563da8a1962a307abc7e430b82"
-  integrity sha512-wf6RlwVPjS3Ue5pp8V0mGm9vt0xDNANVxSLLD88ycesFV5svyPwGW+vfZXp9/E6p5qVH2RHemfYGgUk3Y2F55Q==
+zenn-markdown-html@^0.1.94:
+  version "0.1.94"
+  resolved "https://registry.yarnpkg.com/zenn-markdown-html/-/zenn-markdown-html-0.1.94.tgz#19c0148ca11b8a67523fc4e6189baa918bd9e555"
+  integrity sha512-WK9sxsQmWP1eVD4GhTchBkDHqxo8XpdDkx+Dn6c+UohpBtrHJAe2qGiMYk/+e4x5LLOO/kO87YtTbr1UaT+HDQ==
   dependencies:
     "@steelydylan/markdown-it-imsize" "^1.0.2"
     "@steelydylan/prism-diff-highlight" "1.0.4"
     "@types/prismjs" "^1.16.1"
     markdown-it "^11.0.0"
-    markdown-it-anchor "^5.3.0"
+    markdown-it-anchor "^8.1.2"
     markdown-it-container "^2.0.0"
     markdown-it-footnote "^3.0.2"
     markdown-it-inline-comments "^1.0.1"
