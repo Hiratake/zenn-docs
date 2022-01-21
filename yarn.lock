@@ -676,10 +676,10 @@ picomatch@^2.0.4, picomatch@^2.2.1:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.2.3.tgz#465547f359ccc206d3c48e46a1bcb89bf7ee619d"
   integrity sha512-KpELjfwcCDUb9PeigTs2mBJzXUPzAuP2oPcA989He8Rte0+YUAjw1JVedDhuTKPkHjSYzMN3npC9luThGYEKdg==
 
-prismjs@^1.25.0:
-  version "1.25.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.25.0.tgz#6f822df1bdad965734b310b315a23315cf999756"
-  integrity sha512-WCjJHl1KEWbnkQom1+SzftbtXMKQoezOCYs5rECqMN+jP+apI7ftoflyqigqzopSO3hMhTEb0mFClA8lkolgEg==
+prismjs@^1.26.0:
+  version "1.26.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.26.0.tgz#16881b594828bb6b45296083a8cbab46b0accd47"
+  integrity sha512-HUoH9C5Z3jKkl3UunCyiD5jwk0+Hz0fIgQ2nbwU2Oo/ceuTAQAg+pPVnfdt2TJWRVLcxKh9iuoYDUSc8clb5UQ==
 
 proxy-addr@~2.0.5:
   version "2.0.7"
@@ -850,10 +850,10 @@ ws@^7.4.6:
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.0.tgz#0033bafea031fb9df041b2026fc72a571ca44691"
   integrity sha512-6ezXvzOZupqKj4jUqbQ9tXuJNo+BR2gU8fFRk3XCP3e0G6WT414u5ELe6Y0vtp7kmSJ3F7YWObSNr1ESsgi4vw==
 
-zenn-cli@^0.1.101:
-  version "0.1.101"
-  resolved "https://registry.yarnpkg.com/zenn-cli/-/zenn-cli-0.1.101.tgz#68b8d04bf05fba2e8a42e8e09cf7e90378ffbc69"
-  integrity sha512-ec9p2mIW1jnLxTqYjCgNa6dmRoh3nGrUl+bBTOu1ezchFmtNVybffx6C4k+SJFklIAu7yczhupRtCGb5MeNqWw==
+zenn-cli@^0.1.102:
+  version "0.1.102"
+  resolved "https://registry.yarnpkg.com/zenn-cli/-/zenn-cli-0.1.102.tgz#ca6bf9a2d858968b8a27e990c43c99ec22d04510"
+  integrity sha512-tbpGmTUQ+itcJGfX49c5qNj5sXlK27Hcw/FzyW/JZN7DqVckds77PHf5Xtm2/PCIKY9y0qtGlGfbNXdtEFQ4TQ==
   dependencies:
     arg "^5.0.0"
     cheerio "^1.0.0-rc.10"
@@ -869,12 +869,12 @@ zenn-cli@^0.1.101:
     node-fetch "^2.6.1"
     open "^8.2.0"
     ws "^7.4.6"
-    zenn-markdown-html "^0.1.101"
+    zenn-markdown-html "^0.1.102"
 
-zenn-markdown-html@^0.1.101:
-  version "0.1.101"
-  resolved "https://registry.yarnpkg.com/zenn-markdown-html/-/zenn-markdown-html-0.1.101.tgz#7a3798cf0e3b66aa73e5ac4b65b5626c19dd7883"
-  integrity sha512-580P8SPoYhB+/pjPekHSCxpxb+J70YnlFZCh2rCOCk3QUPMAuHgpaX02DPhpHrqW5gtIkOl0EdryPY75JMat0w==
+zenn-markdown-html@^0.1.102:
+  version "0.1.102"
+  resolved "https://registry.yarnpkg.com/zenn-markdown-html/-/zenn-markdown-html-0.1.102.tgz#aa95faa90cbdebd615aafd8f512212876fcd9311"
+  integrity sha512-b4PVXQdYSq8c2zEnC7DLYm/xaYj4pp6qrF9K+z/JKmxdTJNxyuSrNRQCIOiXGQgW0mppTx4QcIz3oPRNCHfqsg==
   dependencies:
     "@steelydylan/markdown-it-imsize" "^1.0.2"
     "@steelydylan/prism-diff-highlight" "1.0.4"
@@ -885,4 +885,4 @@ zenn-markdown-html@^0.1.101:
     markdown-it-inline-comments "^1.0.1"
     markdown-it-link-attributes "^3.0.0"
     markdown-it-task-lists "^2.1.1"
-    prismjs "^1.25.0"
+    prismjs "^1.26.0"
