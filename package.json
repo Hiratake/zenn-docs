@@ -7,6 +7,6 @@
   "author": "Hiratake <hiratake@hiratake.xyz>",
   "license": "UNLICENSED",
   "devDependencies": {
-    "zenn-cli": "^0.1.105"
+    "zenn-cli": "^0.1.106"
   }
 }

@@ -14,11 +14,6 @@
   resolved "https://registry.yarnpkg.com/@steelydylan/markdown-it-imsize/-/markdown-it-imsize-1.0.2.tgz#bffec33320601691162e4e903e27eb63d5488b6d"
   integrity sha512-3tfhRLlv8w3GSNzjEx3y1JIyHpCuBhqXN6tILRTR4IhZcrJb6WJJo12jZ/lKiT9VITg9kHHHg6yVsDwO5nnZqw==
 
-"@steelydylan/prism-diff-highlight@1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@steelydylan/prism-diff-highlight/-/prism-diff-highlight-1.0.4.tgz#aa9328c472af3e7c63e1830ba9375b128e5f9f58"
-  integrity sha512-1M16pY3PvWVScLrYj9nENZm1yQ+V/w2YoB6NMZkv+/O/nAHoRg6qS1BX8FNnCKSbIk52QIwj+NUi/sUK2EMuew==
-
 accepts@~1.3.7:
   version "1.3.7"
   resolved "https://registry.yarnpkg.com/accepts/-/accepts-1.3.7.tgz#531bc726517a3b2b41f850021c6cc15eaab507cd"
@@ -616,7 +611,7 @@ negotiator@0.6.2:
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.2.tgz#feacf7ccf525a77ae9634436a64883ffeca346fb"
   integrity sha512-hZXc7K2e+PgeI1eDBe/10Ard4ekbfrrqG8Ep+8Jmf4JID2bNg7NvCPOZN+kfF574pFQI7mum2AUqDidoKqcTOw==
 
-node-fetch@^2.6.1:
+node-fetch@^2.6.7:
   version "2.6.7"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
   integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
@@ -870,10 +865,10 @@ ws@^7.4.6:
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.0.tgz#0033bafea031fb9df041b2026fc72a571ca44691"
   integrity sha512-6ezXvzOZupqKj4jUqbQ9tXuJNo+BR2gU8fFRk3XCP3e0G6WT414u5ELe6Y0vtp7kmSJ3F7YWObSNr1ESsgi4vw==
 
-zenn-cli@^0.1.105:
-  version "0.1.105"
-  resolved "https://registry.yarnpkg.com/zenn-cli/-/zenn-cli-0.1.105.tgz#711df8b4a3c534ae355629cd4954ac2a4f377639"
-  integrity sha512-tpCYetxY7pPHqb6y+JlzQQaMqn4TUvkOv0DiFvtuALl+8XN92yuAObW84mpFTQLqJQHrNpyMjvENEYX1z1Gu7A==
+zenn-cli@^0.1.106:
+  version "0.1.106"
+  resolved "https://registry.yarnpkg.com/zenn-cli/-/zenn-cli-0.1.106.tgz#a9ff5df6ad70b43f6533ae3fb0764218bff76ea7"
+  integrity sha512-7SO6XlYUxt+jkGB5TujVldC+d49zY417gAvKc9tUuJClrJfpfux2PQE/XrGkvBlSefSvoZOQnkv1bNSLqtD4jQ==
   dependencies:
     arg "^5.0.0"
     cheerio "^1.0.0-rc.10"
@@ -886,18 +881,17 @@ zenn-cli@^0.1.105:
     history "^5.0.0"
     image-size "^1.0.0"
     js-yaml "^4.1.0"
-    node-fetch "^2.6.1"
+    node-fetch "^2.6.7"
     open "^8.2.0"
     ws "^7.4.6"
-    zenn-markdown-html "^0.1.105"
+    zenn-markdown-html "^0.1.106"
 
-zenn-markdown-html@^0.1.105:
-  version "0.1.105"
-  resolved "https://registry.yarnpkg.com/zenn-markdown-html/-/zenn-markdown-html-0.1.105.tgz#131b62ea35c2d0d8711055238ed96b4cd11334d9"
-  integrity sha512-ETzVhHnjquK7LQAzyX/bb6fmlVi4I0OYsk8kZ0/WwP8LvQdttTuuc2VI+XDIqTT4joEyCjp8CSi6ScAuZG54WQ==
+zenn-markdown-html@^0.1.106:
+  version "0.1.106"
+  resolved "https://registry.yarnpkg.com/zenn-markdown-html/-/zenn-markdown-html-0.1.106.tgz#7b8fe5140d45f93550f07925d32fbdc816858acd"
+  integrity sha512-jsR3O4MX3IorzjrMZFF731nmFPy8T+chX2qwhXA6IOcf7j7+1dl1+ccvpxtnredd6Ztb7B0M2wUpvTgWDF+xyQ==
   dependencies:
     "@steelydylan/markdown-it-imsize" "^1.0.2"
-    "@steelydylan/prism-diff-highlight" "1.0.4"
     markdown-it "^12.3.2"
     markdown-it-anchor "^8.4.1"
     markdown-it-container "^2.0.0"
