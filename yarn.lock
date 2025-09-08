@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-zenn-cli@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/zenn-cli/-/zenn-cli-0.2.1.tgz#c6480df815ff1c2ceea3b9a04772b4a55228adcf"
-  integrity sha512-8ipbiIHOGIK1Gp1ifNi4rKY3+YohcXCrQCuz6w78OQ532WoU2xMiV0hFWRR/obmuPYwbiGWd/Xt/A4tYCaOHTA==
+zenn-cli@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/zenn-cli/-/zenn-cli-0.2.3.tgz#1332e1452e8cfc9eeb289ca2c637fb08ad1c2b99"
+  integrity sha512-ghYpg2foOeFExvtWKDFSjCsq+utYf84jApw37Wli1MnSAE1la40GZ47kXQDQKeh/1LV2AT0LDMYWbmE64Z4ZSg==
