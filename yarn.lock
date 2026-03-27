@@ -56,6 +56,11 @@ open@^10.2.0:
     is-inside-container "^1.0.0"
     wsl-utils "^0.1.0"
 
+package-manager-detector@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/package-manager-detector/-/package-manager-detector-1.6.0.tgz#70d0cf0aa02c877eeaf66c4d984ede0be9130734"
+  integrity sha512-61A5ThoTiDG/C8s8UMZwSorAGwMJ0ERVGj2OjoW5pAalsNOg15+iQiPzrLJ4jhZ1HJzmC2PIHT2oEiH3R5fzNA==
+
 run-applescript@^7.0.0:
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/run-applescript/-/run-applescript-7.1.0.tgz#2e9e54c4664ec3106c5b5630e249d3d6595c4911"
@@ -68,9 +73,10 @@ wsl-utils@^0.1.0:
   dependencies:
     is-wsl "^3.1.0"
 
-zenn-cli@^0.2.10:
-  version "0.2.10"
-  resolved "https://registry.yarnpkg.com/zenn-cli/-/zenn-cli-0.2.10.tgz#322251ba9b3edb7044d4d1015eaadc244af2bdc2"
-  integrity sha512-+1tAbDM9wsbRfrQtDGEN/i0bB1d26RqjtPmgBm672zflcTw/C8A/9qUA4fH4/TMmCGdOyNvohUE2B5ERd9EOZg==
+zenn-cli@^0.4.6:
+  version "0.4.6"
+  resolved "https://registry.yarnpkg.com/zenn-cli/-/zenn-cli-0.4.6.tgz#1417e6aa717cdaa4cd811663bf1347faca7cf811"
+  integrity sha512-jeC65M6Xx8wVGL2E7+Siw+qlhUurg+Y7w4HwMDMzgNrbrCROs836qKE4kq77oqkUcbXrcRVbSAXnjAKVTA2oNg==
   dependencies:
     open "^10.2.0"
+    package-manager-detector "^1.6.0"
